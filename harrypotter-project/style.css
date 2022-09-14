@@ -1,0 +1,81 @@
+body {
+    font-family: "Legendary Runes Free Trial";
+    src: url("/font/Legendary Runes Free Trial.otf");
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    height: 100%;
+    color: white;
+    background-image: url("https://source.unsplash.com/1600x900/?moon");
+  } 
+   #container {
+    border-radius: 56px 0px 56px 0px;
+    width: 800px;
+    padding: 15px;
+    background: linear-gradient(135deg, rgba(255, 255, 255, 0.1), rgba(255, 255, 255, 0));
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+    border-radius: 20px;
+    border:1px solid rgba(255, 255, 255, 0.18);
+    box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.37);
+  }
+  .com{
+    padding: 10px;
+    width: 100px ;
+    display: flex;
+    flex-direction: column;
+    cursor: pointer;
+  }
+  
+  #comment{
+    padding: 10px;
+    width: 150px ;
+    display: flex;
+    flex-direction: column;
+    cursor: pointer;
+  }
+  #comment-form{
+    padding: 10px;
+    width: 300px ;
+    display: flex;
+    flex-direction: column;
+  }
+
+  #characters-list {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: auto;
+    grid-gap: 10px;
+    grid-template-areas:
+     "img img img img";
+  }
+  #characters-list img{
+    width:30%;
+    height: 40%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    cursor: pointer;
+  }
+  button {
+    background-color: blue;
+    border: none;
+    border-radius: 5px;
+    text-transform: uppercase;
+    color: whitesmoke;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin-bottom: 5px;
+    cursor: pointer;
+  }
+  button.hover{
+    color: black;
+    cursor: pointer;
+  }
+.input{
+  margin-left: 200px;
+  border-radius: 5px;
+  border: none;
+  padding-top: 10px;
+  padding-bottom: 10px;
+ }
